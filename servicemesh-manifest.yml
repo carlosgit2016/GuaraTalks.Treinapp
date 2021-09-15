@@ -52,9 +52,9 @@ spec:
         host: treinapp-api-svc-v1
         port: 
           number: 80
-      weight: 20
+      weight: 20 # 20% of weight got this service
     - destination:
         host: treinapp-api-svc-v2
         port:
           number: 80
-      weight: 80
+      weight: 80 # 80% of weight got this service
